@@ -1,0 +1,66 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import {
+  MatToolbarModule,
+  MatIconModule,
+  MatButtonModule,
+  MatCardModule,
+  MatInputModule,
+  MatListModule,
+  MatSlideToggleModule,
+  MatGridListModule,
+  MatDialogModule,
+  MatAutocompleteModule,
+  MatMenuModule,
+  MatCheckboxModule,
+  MatTooltipModule,
+  MatProgressBarModule,
+  MatSidenavModule,
+  MatSelectModule,
+  MatFormFieldModule,
+} from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+@NgModule({
+  imports: [
+    FlexLayoutModule,
+    MatProgressBarModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatInputModule,
+    MatListModule,
+    MatSlideToggleModule,
+    MatGridListModule,
+    MatAutocompleteModule,
+    MatMenuModule,
+    MatCheckboxModule,
+    MatTooltipModule,
+    MatSidenavModule,
+    MatSelectModule,
+    MatFormFieldModule,
+  ],
+  exports: [
+    FlexLayoutModule,
+    MatProgressBarModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatInputModule,
+    MatListModule,
+    MatSlideToggleModule,
+    MatGridListModule,
+    MatDialogModule,
+    MatAutocompleteModule,
+    MatMenuModule,
+    MatCheckboxModule,
+    MatTooltipModule,
+    MatSidenavModule,
+    MatSelectModule,
+    MatFormFieldModule,
+  ],
+  declarations: []
+})
+export class MaterialModule { }
